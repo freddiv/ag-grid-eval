@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <div class="container">
-    <CarGrid />
-    <ChemGrid /> 
+    <div class="container-fluid">
+    <RichGridExample /> 
     </div>  
    
   </div>
@@ -11,12 +10,14 @@
 <script>
 import CarGrid from './components/CarGrid.vue'
 import ChemGrid from './components/ChemGrid.vue'
+import RichGridExample from './rich-grid-example/RichGridExample.vue'
 
 export default {
   name: 'app',
   components: {
     CarGrid,
-    ChemGrid
+    ChemGrid,
+    RichGridExample
   }
 }
 </script>
